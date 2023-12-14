@@ -1,18 +1,48 @@
 body {
-    margin: 0;
+    margin: 4em;
     padding: 0;
     text-align: center;
+    background-color: black;
 }
 
 h1 {
-    padding-top: 4em;
+    padding: 2em;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 p {
-    margin: 2em 0;
+    margin: 1em 0;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 img {
-    width: 40em;
-    max-width: 90%;
+    width: 720px;
+    max-width: 100%;
+}
+video{
+    width: 720px;
+    height: auto;
+    max-width: 100%;
+}
+a:link{
+    color: cornflowerblue;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited{
+    color: cornflowerblue;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover{
+    color: cornflowerblue;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active{
+    color: cornflowerblue;
+    background-color: transparent;
+    text-decoration: underline;
 }
