@@ -20,6 +20,7 @@ p {
 img {
     width: 720px;
     max-width: 100%;
+    padding: 1em;
 }
 video{
     width: 720px;
