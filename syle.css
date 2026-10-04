@@ -1,0 +1,41 @@
+* {
+    border: solid 2px black;
+}
+
+.container {
+    display: flex;
+    overflow: auto;
+}
+
+.pad {
+    padding: 0.5em;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+main {
+    width: 100%;
+    max-width: 720px;
+    flex-direction: column;
+}
+
+banner {
+    aspect-ratio: 2/1;
+}
+
+links {
+    justify-content: right;
+}
+
+btn {
+    border: none;
+    border-left: solid 2px black;
+}
