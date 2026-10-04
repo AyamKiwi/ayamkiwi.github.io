@@ -3,9 +3,22 @@
     src: url("assets/font/JetBrainsMonoNerdFont-Medium.ttf");
 }
 
+:root {
+    --black: oklch(0.25 0 0);
+    --white: oklch(0.95 0 0);
+    --alpha: rgba(0 0 0 0);
+    --main: oklch(0.5 0.1 300);
+}
+
 * {
-    border: solid 2px black;
+    border: solid 1px var(--black);
+    background-color: var(--white);
+    color: var(--black);
     font-family: "JetBrainsMono";
+}
+
+html {
+    border: none;
 }
 
 body {
@@ -17,23 +30,21 @@ body {
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    border: none;
 }
 
 main {
-    width: 100%;
-    max-width: 720px;
     flex-direction: column;
-    margin: 0 10px;
+    width: calc(100% - 20px);
+    max-width: 720px;
 }
 
 banner {
     aspect-ratio: 326/81;
 }
 
-p {
-    padding: 0;
-    margin: 0;
-    border: none;
+bio {
+    flex-direction: column;
 }
 
 links {
@@ -47,9 +58,9 @@ a {
     text-decoration: none;
     border: none;
     border-left: solid 2px black;
-    width: 1em;
     aspect-ratio: 1/1;
     margin-right: 2px;
+    width: 1em;
 }
 
 .container {
@@ -59,11 +70,4 @@ a {
 
 .pad {
     padding: 0.5em;
-}
-
-#mark {
-    border: none;
-    padding: 0;
-    margin: 0;
-    height: 0.75em;
 }
