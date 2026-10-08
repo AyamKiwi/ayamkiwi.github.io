@@ -33,6 +33,10 @@ body {
     border: none;
 }
 
+dialog {
+    max-width: 720px;
+}
+
 main {
     flex-direction: column;
     width: calc(100% - 20px);
